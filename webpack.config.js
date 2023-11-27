@@ -8,7 +8,7 @@ module.exports = [
     target: "web",
     output: {
       path: path.resolve(__dirname, "dist/client"),
-      filename: "bundle.js",
+      filename: "bundle-[fullhash].js",
     },
 
     devServer: {
